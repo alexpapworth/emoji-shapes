@@ -14,18 +14,32 @@
 
 <body>
 
+	<div class="container">
+		<form>
 
-	<form>
-		<input type="text" id="input">
-		<input type="radio" name="shape" id="star-shape" value="star">
-		<label for="star-shape">Star</label>
-		<input type="radio" name="shape" id="boot-shape" value="boot">
-		<label for="boot-shape">Boot</label>
-		<input type="radio" name="shape" id="heart-shape" value="heart">
-		<label for="heart-shape">Heart</label>
-	</form>
+			<div class="input-container">
+				<h1>Enter an emoji</h1>
+				<div class="input-wrapper">
+					<input type="text" id="input">
+				</div>
+			</div>
 
-	<textarea id="output"></textarea>
+			<div class="output-container">
+				<textarea id="output"></textarea>
+			</div>
+
+			<div class="options-container">
+				<h2>Select a shape</h2>
+				<input type="radio" name="shape" id="star-shape" value="star">
+				<label for="star-shape">Star</label>
+				<input type="radio" name="shape" id="boot-shape" value="boot">
+				<label for="boot-shape">Boot</label>
+				<input type="radio" name="shape" id="heart-shape" value="heart">
+				<label for="heart-shape">Heart</label>
+			</div>
+
+		</form>
+	</div>
 
 	<script src="script.js"></script>
 </body>
