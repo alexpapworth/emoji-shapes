@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Emoji Shapes 🤠</title>
+	<meta name="description" content="Emoji Shapes">
+	<meta name="author" content="Alex Papworth">
+
+	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<div class="container">
+		<form>
+
+			<div class="input-container">
+				<h1>Enter an emoji</h1>
+				<div class="input-wrapper">
+					<input type="text" id="input">
+				</div>
+			</div>
+
+			<div class="output-container">
+				<textarea id="output"></textarea>
+			</div>
+
+			<div class="options-container">
+				<h2>Select a shape</h2>
+				<input type="radio" name="shape" id="star-shape" value="star">
+				<label for="star-shape" class="label-block">
+					<div class="radio-button">
+						<img src="images/star.png" class="radio-image">
+					</div>
+					<div class="radio-text">Star</div>
+				</label>
+				<input type="radio" name="shape" id="boot-shape" value="boot">
+				<label for="boot-shape" class="label-block">
+					<div class="radio-button">
+						<img src="images/boot.png" class="radio-image">
+					</div>
+					<div class="radio-text">Boot</div>
+				</label>
+				<input type="radio" name="shape" id="heart-shape" value="heart">
+				<label for="heart-shape" class="label-block">
+					<div class="radio-button">
+						<img src="images/heart.png" class="radio-image">
+					</div>
+					<div class="radio-text">Heart</div>
+				</label>
+			</div>
+
+		</form>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>

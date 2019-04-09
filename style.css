@@ -1,0 +1,85 @@
+body {
+	font-family: Helvetica;
+	font-weight: 200;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	max-width: 800px;
+}
+
+h1 {
+	font-size: 32px;
+	margin: 0;
+	text-align: left;
+	padding-left: 30px;
+	font-weight: 400;
+}
+
+h2 {
+	font-weight: 400;
+}
+
+.input-wrapper {
+	width: 100%;
+    border: 3px solid #000;
+    border-radius: 25px;
+    padding-top: 6px;
+}
+
+#input {
+    width: 97%;
+    border: none;
+    border-radius: 26px;
+    font-size: 32px;
+    outline: none;
+    padding-left: 3px;
+}
+
+.output-container {
+	padding: 20px 0;
+}
+
+#output {
+	resize: none;
+	width: 300px;
+	height: 300px;
+	border: 3px solid #000;
+	border-radius: 25px;
+	outline: none;
+	font-size: 19px;
+	line-height: 24px;
+}
+
+.radio-button {
+	border: 3px solid #000;
+	    width: 120px;
+    height: 90px;
+    border-radius: 14px;
+}
+
+.radio-image {
+	    width: 50px;
+    margin: 19px auto;
+    vertical-align: unset;
+}
+
+.label-block {
+    display: inline-block;
+    padding: 10px;
+}
+
+.label-block:hover .radio-button {
+	background-color: #eee;
+}
+
+input[name="shape"]:checked + label .radio-button {
+	background-color: #000;
+}
+
+
+input[name="shape"] {
+	display: none;
+}
