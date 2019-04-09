@@ -66,3 +66,20 @@ h2 {
     vertical-align: unset;
 }
 
+.label-block {
+    display: inline-block;
+    padding: 10px;
+}
+
+.label-block:hover .radio-button {
+	background-color: #eee;
+}
+
+input[name="shape"]:checked + label .radio-button {
+	background-color: #000;
+}
+
+
+input[name="shape"] {
+	display: none;
+}

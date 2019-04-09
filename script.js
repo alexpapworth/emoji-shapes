@@ -14,22 +14,24 @@ function setShape() {
 
 		newShape = window[shape];
 
-		var length = (newShape.match(/🤠/g) || []).length;
+		if (emojis.length > 0)
+		{
+			var length = (newShape.match(/🤠/g) || []).length;
 
-		var i = 0;
-		for (var x = 0; x < length; x++)
-		{	
-			newShape = newShape.replace(/🤠/, emojis[i]);
-			if (i == emojis.length-1)
-			{
-				i = 0;
-			}
-			else
-			{
-				i++;
+			var i = 0;
+			for (var x = 0; x < length; x++)
+			{	
+				newShape = newShape.replace(/🤠/, emojis[i]);
+				if (i == emojis.length-1)
+				{
+					i = 0;
+				}
+				else
+				{
+					i++;
+				}
 			}
 		}
-
 
 		document.querySelector('#output').value = newShape;
 	}
