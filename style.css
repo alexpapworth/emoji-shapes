@@ -52,3 +52,17 @@ h2 {
 	font-size: 19px;
 	line-height: 24px;
 }
+
+.radio-button {
+	border: 3px solid #000;
+	    width: 120px;
+    height: 90px;
+    border-radius: 14px;
+}
+
+.radio-image {
+	    width: 50px;
+    margin: 19px auto;
+    vertical-align: unset;
+}
+
